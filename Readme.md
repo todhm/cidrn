@@ -19,4 +19,11 @@
 ```
 
 
+### android=>app=>src=>main=>assets=>appcenter-config.json 파일설정
 
+### android=>app=>src=>main=>res=>values=>strings.xml 파일에 다으코드추가
+```
+    <string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true" translatable="false">DO_NOT_ASK_JAVASCRIPT</string>
+    <string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
+
+```
